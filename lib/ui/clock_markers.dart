@@ -7,7 +7,7 @@ class ClockSecondsTickMarker extends StatelessWidget {
     Key? key,
     required this.seconds,
     required this.radius,
-  });
+  }) : super(key: key);
   final int seconds;
   final double radius;
 

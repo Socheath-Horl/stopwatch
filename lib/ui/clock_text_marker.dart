@@ -8,7 +8,7 @@ class ClockTextMarker extends StatelessWidget {
     required this.value,
     required this.maxValue,
     required this.radius,
-  });
+  }) : super(key: key);
   final int value;
   final int maxValue;
   final double radius;
